@@ -1,0 +1,24 @@
+{
+  "name": "hug-code/wechat-php-sdk",
+  "description": "微信公众号SDK",
+  "type": "library",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "无痕",
+      "email": "1762910894@qq.com",
+      "homepage": "http://www.hug-code.cn/"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "HugCode\\WeChat\\": ""
+    }
+  }
+}
