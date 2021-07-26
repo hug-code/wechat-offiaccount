@@ -57,7 +57,7 @@ class BasicWeChat
      * @return mixed|string
      * @throws MessageException
      */
-    public function getAccessToken()
+    private function getAccessToken()
     {
         $data               = [
             'grant_type' => 'client_credential',

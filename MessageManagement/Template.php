@@ -23,7 +23,7 @@ class Template extends BasicWeChat
     public function send($data)
     {
         if (empty($data)) {
-            throw new MessageException(ErrorCode::CONFIG_ERROR_APPID);
+            throw new MessageException(ErrorCode::PARAMS_ERROR_EMPTY);
         }
         $url = self::API_BASE_URL . self::SEND . '?access_token=' . $this->access_token;
         return HttpRequest::instance()->post($url, json_encode($data))->toArray();
