@@ -18,7 +18,7 @@ class ServiceCenterMessages extends BasicWeChat
      * @param array $data
      * @return mixed
      * @throws MessageException
-     * @author yashuai
+     * @author hug-code
      * @Time 2021/7/27 11:11
      */
     public function send($data = [])
